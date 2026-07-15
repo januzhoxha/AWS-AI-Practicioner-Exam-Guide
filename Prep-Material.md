@@ -10,10 +10,10 @@
 
 Which Amazon Bedrock feature is BEST suited for this use case?
 
-*Amazon Bedrock Agents,
-*Amazon Bedrock Guardrails,
-*Amazon Bedrock Knowledge Bases,
-*Amazon Bedrock Model Evaluation
+* Amazon Bedrock Agents,
+* Amazon Bedrock Guardrails,
+* Amazon Bedrock Knowledge Bases,
+* Amazon Bedrock Model Evaluation
 
 Answer:
 

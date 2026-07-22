@@ -46,3 +46,15 @@ Which ML approach is MOST appropriate?
 A financial services company must retain complete records of every API call made to foundation models for regulatory compliance. They need to capture both the input prompts and model responses, along with timestamps and model identifiers.
 
 Which Amazon Bedrock feature should be enabled?
+
+* Amazon Bedrock Guardrails,
+* Model Invocation Logging,
+* Amazon Bedrock Agents,
+* AWS Cloud Trail
+
+<Details>
+    Model Invocation Logging - This is the correct answer, as the word Logging suggests it uses a history view of all API calls made. ✅ <br>
+    Amazon Bedrock Guardrails - As mentioned previously this is only used to enable strict rules for the model to follow, such as no use of profanity and disable hallucination. ❌ <br>
+    Amazon Bedrock Agents - Create new Agents. ❌ <br>
+    AWS Cloud Trail - This is very similiar to Model Invocation Logging but this does not capture the prompts/timestamps and stuff. ❌ 
+</Details>

@@ -17,9 +17,9 @@ Which Amazon Bedrock feature is BEST suited for this use case?
 * Amazon Bedrock Model Evaluation
 
 <Details>
-    Amazon Bedrock Knowledge Bases - It ensures connectivity with private information. ✅
-    Amazon Bedrock Agents - Enables creation of new Agents, not necessarily related to this question. ❌
-    Amazon Bedrock Guardrails - Ensures no use of prohibited words(profanity, sexual, etc.), also disables the machine's ability to hallucinate. ❌
+    Amazon Bedrock Knowledge Bases - It ensures connectivity with private information. ✅<br>
+    Amazon Bedrock Agents - Enables creation of new Agents, not necessarily related to this question. ❌<br>
+    Amazon Bedrock Guardrails - Ensures no use of prohibited words(profanity, sexual, etc.), also disables the machine's ability to hallucinate. ❌<br>
     Amazon Bedrock Model Evaluation - Evaluates model based on a metric of its own. ❌
 </Details>
 
@@ -35,9 +35,9 @@ Which ML approach is MOST appropriate?
 * Synthetic Data Generation
 
 <Details>
-    Transfer Learning - This is the best and most efficient way to adapt a model to a new one, as the name suggests it just transfers everything it knows to the new model. ✅
-    Unsupervised Learning - Is basically leaving unlabeled data to the machine and allowing for it to do whatever it wants with it(train, label) all on its own. ❌
-    Reinforcement Learning from Human Feedback - Is a great way to train the model but it consumes time and work force(requesting a human to always give prompts to the machine so that it can learn). ❌
+    Transfer Learning - This is the best and most efficient way to adapt a model to a new one, as the name suggests it just transfers everything it knows to the new model. ✅<br>
+    Unsupervised Learning - Is basically leaving unlabeled data to the machine and allowing for it to do whatever it wants with it(train, label) all on its own. ❌<br>
+    Reinforcement Learning from Human Feedback - Is a great way to train the model but it consumes time and work force(requesting a human to always give prompts to the machine so that it can learn). ❌<br>
     Synthetic Data Generation - this is not what the question asked, this is basically creating new data that has no correlation to X-rays(may or may not have), also it requires computational workforce since you need to implant algorithms and simulations to it.
 </Details>
 

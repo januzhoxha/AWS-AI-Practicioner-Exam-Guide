@@ -58,3 +58,64 @@ Which Amazon Bedrock feature should be enabled?
     Amazon Bedrock Agents - Create new Agents. ❌ <br>
     AWS Cloud Trail - This is very similiar to Model Invocation Logging but this does not capture the prompts/timestamps and stuff. ❌ 
 </Details>
+
+
+**Question 4**
+
+A government agency is creating an AI governance policy for its newly deployed automated benefits determination system. The agency's legal team requires a clear chain of responsibility if the system makes an erroneous decision that harms a citizen.
+
+Which governance practice BEST supports accountability for AI system decisions?
+
+* Deploy only open-source foundation models to ensure code transparency.
+* Maintain audit trails of model decisions, document model development processes, and assign named owners to each AI system.
+* Restrict deployment to air-gapped, on-premises infrastructure.
+* Exclude any personally identifiable information from model training datasets.
+
+<Details>
+    Maintain audit trails of model decisions, document model development processes, and assign named owners to each AI system - This is the correct answer because AI accountability requires three pillars: 1.Documentation(model cards, data lineage, design decisions), 2.Audit Trails(Logged records of when models were deployed, modified, and what decisions they produced), and clear ownership(Naming responsible individuals or teams for each systems). ✅ <br>
+    Deploy only open-source foundation models to ensure code transparency - This only establishes what code is written, not who is responsible for what, when it was made and such. ❌ <br>
+    Restrict deployment to air-gapped, on-premises infrastructure - Incorrect, this is unrelated to the question. ❌ <br>
+    Exclude any personally identifiable information from model Training datasets - This is PII, not related to the question, whatsoever. ❌
+</Details>
+
+**Question 5**
+
+A startup is experimenting with Amazon Bedrock for a proof-of-concept. Their prototype application calls the model approximately 15 times per day with varying request volumes. They want to minimize costs during this early phase.
+
+Which approach BEST minimizes costs?
+
+* Purchase Provisioned Throughput with a 1-month commitment for guaranteed capacity.
+* Fine-tune a foundation model to improve relevance and reduce retries.
+* Use On-Demand pricing and optimize prompts to minimize token count.
+* Migrate to a dedicated Amazon SageMaker endpoint for cost predictability.
+
+<Details>
+    Use On-Demand pricing and optimize prompts to minimize token count - This is the best and most efficient way to minimize cost, On-Demand enables the user to only pay for when they use the AI(opposite of Provisioned throughput), combining that with prompt optimization enables both input and output token, which in turn reduces the amount needed for spend. ✅ <br>
+    Purchase Provisioned Throughput with a 1-month commitment for guaranteed capacity - This is not the way to go, provisioned Throughput is like a Gym membership, you pay for it for a specific time, but it doesnt care if you went there or not. ❌ <br>
+    Fine-tune a foundation model to improve relevance and reduce retries - This takes a lot of workforce and doesnt guarante success. ❌ <br>
+    Migrate to a dedicated Amazon SageMaker Endpoint for cost predictability - This does not minimize cost it just predicts it. ❌
+</Details>
+
+**Question 6**
+
+A retail company wants to build a shopping assistant that can accept a photo of a product and generate a written description of that item, including suggested complementary products. The system must process both image and text inputs and produce text outputs.
+
+Which model type supports this requirement?
+
+* Text-only large language model,
+* Multimodal foundation model,
+* Image segmentation model,
+* Optical character recognition model.
+
+<Details>
+    Multimodal foundation model - The thing with Multimodal foundation models is that they are multi-functional, enabling the user to accept multiple input modalities(Images, texts, and audios), and generate text as output. ✅ <br>
+    Text-only large Language Model - This only accepts text as input. ❌ <br>
+    Image Segmentation model - They don't generate text outputs. ❌ <br>
+    Optical Character Recognition model - They extract printed text from images but don't understand visual semantics. ❌
+</Details>
+
+**Question 7**
+
+A legal technology company is building a document similarity system. They need to convert thousands of legal briefs into a numerical format that captures their semantic meaning so that attorneys can find precedents by searching with natural language queries.
+
+Which model type should be used for this conversion step?

@@ -119,3 +119,33 @@ Which model type supports this requirement?
 A legal technology company is building a document similarity system. They need to convert thousands of legal briefs into a numerical format that captures their semantic meaning so that attorneys can find precedents by searching with natural language queries.
 
 Which model type should be used for this conversion step?
+
+* Text summarization model,
+* Text generation model,
+* Embedding model,
+* Classification model.
+
+<Details>
+    Embedding model - This is the correct answer, because it converts text into numerical vectors where semantic similarity corresponds to vector proximity. This enables k-NN(Nearest Neighbor). ✅ <br>
+    Text Summarization model - Just summarizes text. ❌ <br>
+    Text generation model - Generates text. ❌ <br>
+    Classification model - Assigns labels from a predefined set. ❌ 
+</Details>
+
+**Question 8**
+
+A data science team is preparing a customer transaction dataset for ML training. The dataset has 15% missing values, contains extreme outliers in the purchase amount column, and uses inconsistent date formats across records. The team wants a visual, low-code environment to clean this data.
+
+Which AWS service is MOST appropriate?
+
+* Amazon SageMaker Data Wrangler,
+* Amazon Athena,
+* Amazon Kinesis,
+* AWS Database Migration Service
+
+<Details>
+    <i>Amazon SageMaker Data Wrangler</i> - is the <em>correct</em> answer, because it allows imputing or dropping missing values, detecting and capping outliers, standardizing date formats, etc. ✅ <br>
+    Amazon Athena - runs SQL queries. ❌ <br>
+    Amazon Kinesis - handles real-time data streaming. not batch preparation. ❌ <br>
+    AWS Database Migration Service - Migrates databases between different sources. ❌
+</Details>

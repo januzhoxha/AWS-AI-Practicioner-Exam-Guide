@@ -149,3 +149,48 @@ Which AWS service is MOST appropriate?
     Amazon Kinesis - handles real-time data streaming. not batch preparation. ❌ <br>
     AWS Database Migration Service - Migrates databases between different sources. ❌
 </Details>
+
+
+**Question 9**
+
+A machine learning platform team needs to enable data scientists to discover available datasets across Amazon S3, Amazon RDS, and Amazon Redshift from a single interface. They want automatic schema detection and unified metadata storage.
+
+Which AWS service provides this capability?
+
+* AWS Glue Data Catalog,
+* Amazon S3 Inventory,
+* AWS Lake Formation,
+* Amazon QuickSight
+
+<Details>
+    <font color = "green">AWS Glue Data Catalog</font> - Is the <em>correct</em> anwser, since it uses its Glue Crawlers, to scan data sources(<font color = "blue">S3</font>,<font color = "orange">RDS</font>,<font color = "red">Redshift</font>). ✅ <br>
+    <font color = "red">Amazon S3 Inventory</font> - produces reports.  ❌ <br>
+    <font color = "red">AWS Lake Formation</font> - not a catalogins service. ❌ <br>
+    <font color = "red">Amazon QuickSight</font> - for visualization. ❌ 
+</Details>
+
+**Question 10**
+
+A product team wants to rapidly prototype a generative AI feature using a pre-trained Llama foundation model. They have minimal ML infrastructure expertise and need to go from model selection to a deployed endpoint within hours, not weeks.
+
+Which AWS service enables the fastest path to deployment?
+
+* Amazon SageMaker JumpStart,
+* Amazon EC2 with GPU instances,
+* AWS Deep Learning AMIs,
+* Amazon ECS with container orchestration.
+
+<Details>
+    <font color = "green">Amazon SageMaker JumpStart</font> - This, is the <em>correct</em> answer, amazon SageMaker JumpStart has a ton of pre-trained models that can be deployed to SageMaker endpoints with a quick API call. ✅ <br>
+    <font color = "red">Amazon EC2 with GPU Instances</font> - This is useful for hosting AI. ❌ <br>
+    <font color = "red">AWS Deep Learning AMIs</font> - This creates a vitral server(an EC2 instance). ❌ <br>
+    <font color = "red">Amazon ECS with container orchestration</font> - Not correlated to the question. ❌ <br>
+</Details>
+
+**Question 11**
+
+A content moderation team needs to run 2 million social media posts through a sentiment analysis model every Sunday night. The job is not time-sensitive and should complete before Monday morning. They want to minimize cost.
+
+Which inference approach is MOST appropriate?
+
+*

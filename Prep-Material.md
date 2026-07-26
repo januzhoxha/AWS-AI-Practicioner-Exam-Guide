@@ -189,8 +189,53 @@ Which AWS service enables the fastest path to deployment?
 
 **Question 11**
 
-A content moderation team needs to run 2 million social media posts through a sentiment analysis model every Sunday night. The job is not time-sensitive and should complete before Monday morning. They want to minimize cost.
+A financial institution wants to ensure that its generative AI chatbot does not reveal Sensitive Personal Information (SPI) or customer account numbers in its responses. Additionally, they want to block any queries related to competitors' investment products.
 
-Which inference approach is MOST appropriate?
+* Amazon Bedrock Knowledge Bases,
+* AWS CloudTrail Event Logging,
+* Amazon Bedrock Model Evaluation,
+* Amazon Bedrock Guardrails.
 
-*
+<Details>
+    <font color = "green">Amazon Bedrock Guardrails <font> - Specifically enables the blocking of words, in this case SPI. ✅ <br>
+    <font color = "red">Amazon Bedrock Knowledge Bases <font> - Wrong this is for private sources of where the AI Model gets data from. ❌ <br>
+    <font color = "red">AWS CloudTrail Event Logging <font> - Checks API Calls. ❌ <br>
+    <font color = "red">Amazon Bedrock Model Evaluation <font> - Not correlated with the task at hand. ❌ <br>
+</Details>
+
+**Question 12**
+
+An insurance company needs to automate the processing of claims. They want an AI system that can not only understand the customer's request but also independently call internal APIs to check policy status and update database records without manual intervention for each step.
+
+* Amazon Bedrock Agents,
+* Amazon SageMaker JumpStart,
+* Amazon SageMaker Data Wrangler,
+* Amazon Bedrock Knowledge Bases.
+
+<Details>
+    <font color = "green">Amazon Bedrock Agents<font> - Best for this problem. ✅ <br>
+    <font color = "red"> Others are false no need to check why.<font> ❌ <br>
+</Details>
+
+**Question 13**
+
+A developer is building a document search application using AWS Bedrock Knowledge Bases. The dataset contains highly sensitive HR records that require frequent, sub-second vector search updates and strict field-level access control. Which backing vector store solution offers native integration with Bedrock while fulfilling these low-latency and security requirements?
+
+
+* Amazon OpenSearch Serverless (OSS) with vector search collections, configuring data access policies.
+* Amazon Aurora PostgreSQL-Compatible Edition with pgvector, configured with IAM datavase authentication.
+* In-memory Pinecone serverless vector index with private Link endpoints.
+* Amazon OpenSearch Service (Provisioned) with fine-grained access control enabled via local VPC endpoints.
+
+<Details>
+    <font color = "green">Amazon OpenSearch Serverless (OSS) <font> - is the natively managed vector store for Bedrock Knowledge Bases that supports secure vector search collections, automatic scaling, and precise data access policies for field-level controls. ✅ <br>
+    <font color = "red">Aurora pgvector <font> - is supported but it requires manual database provisioning and lacks the seamless native Bedrock API integration scaling of OpenSearch Serverless. ❌ <br>
+    <font color = "red"> Pinecone <font> - is a third-party service; while integrated, it does not support AWS native IAM policy-based data access control internally. ❌ <br>
+    <font color = "red"> Provisioned OpenSearch Service<font> requires managing clusters and does not provide the serverless integration layer optimized by Bedrock Knowledge Bases. ❌
+</Details>
+
+**Question 14**
+
+An enterprise wants to allow their Bedrock Agent to safely query order statuses from an on-premise ERP system database. How should the developer configure the Bedrock Agent to securely trigger database queries while keeping API payloads minimal?
+
+* Store the DB credentials in AWS Secrets Manager, define an Action Group referencing an AWS Lambda function, and declare an OpenAPI schema representing the action parameters.

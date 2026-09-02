@@ -236,6 +236,3 @@ A developer is building a document search application using AWS Bedrock Knowledg
 
 **Question 14**
 
-An enterprise wants to allow their Bedrock Agent to safely query order statuses from an on-premise ERP system database. How should the developer configure the Bedrock Agent to securely trigger database queries while keeping API payloads minimal?
-
-* Store the DB credentials in AWS Secrets Manager, define an Action Group referencing an AWS Lambda function, and declare an OpenAPI schema representing the action parameters.

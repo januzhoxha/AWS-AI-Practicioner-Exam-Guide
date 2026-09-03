@@ -72,3 +72,32 @@
 
 * **IAM** - Identity Access Manager, access keys, which consist of an access key ID and a secret access key, are long-term credentials used to authenticate and authorize programmatic requests to AWS services. They are specifically designed for use with the AWS Command Line Interface(CLI), Software Development Kits(SDKs), and direct API calls.
 
+* According to the AWS Shared Responsibility Model for managed service like RDS, the customer is responsible for their data and application code. Optimizing application-specific queries to ensure efficient database performance is an application-level task that falls under the customer's responsibility.
+
+* **AWS Trust and Safety** - is the dedicated group responsible for investigating and taking action on reports of abusive or malicious activity originating from AWS resources, including AWS-owned IP addresses. This ensures the safety and integrity of the AWS network.
+
+* **AWS Professional Services** - provides consulting, implementation support, and guidance to help customers with their cloud adoption, migration, and optimization projects.
+
+* **AWS Concierge Support** - is a feature of the Enterprise Support plan and primarily assists customers with billing and account management inquiries, not with security or abuse-related issues.
+
+* **Cassandra** - is a NoSQL wide-column store database and is not a supported engine on Amazon RDS. The AWS-managed service for Cassandra-compatible workloads is Amazon Keyspaces.
+
+* **Redis** - is an in-memory data store, often used as a cache or message broker and is not a supported database engine on Amazon RDS. The corresponding managed AWS service for Redis is Amazon ElastiCache.
+
+* **AWS Glue** - is a fully managed Extract, Transform, and Load(ETL) Service. Its primary purpose is to discover, prepare, and integrate data from multiple sources for analytics, machine learning, and application development.
+
+* **Amazon QuickSight** - is a fully managed, cloud-native business intelligence(BI) service. It is used to create interactive visualizations, dashboards, and perfrom ad-hoc analysis to gain business insights from data, making it a primary analytics service.
+
+* **CapEx** - is short for capital expenditure. Capital expenditure is the cost a business incurs to acquire assets that will provide benefits beyond the current year. CapEx is also reffered to as PP&E, which stands for Property, Plant, and Equipment.
+
+* **AWS Trusted Advisor** - is an online tool that provides real-time guidance to help you provision your resources following AWS best practices. The security pillar of Trusted Advisor includes specific checks for identifying Amazon S3 buckets with unrestricted access and verifying whether MFA is enabled on the root account.
+
+* **AWS CLI** - is the recommended efficient method for developers to perform quick, one-time operations. It provides direct access to every AWS API from the command line, enabling fast execution without navigating a GUI. Per official documentation, the CLI is considered the "daily driver for most DevOps engineers and architects" due to its speed and scriptability. Using commands like *aws s3 ls* and *aws s3 cp* accomplishes the task in seconds.
+
+* **Total Cost of Ownership (TCO)** - is a financial estimate that includes all direct and indirect costs of a product or system over its entire lifecycle. It is a key concept used to compare the costs of running infrastructure on-premises (with high CapEx) versus on the AWS cloud (with high OpEx), taking into account factors like hardware, software, maintenance, power, cooling, and administrative overhead.
+
+* **AWS Allocation Tags** - act as metadata to categorize and track AWS costs. By tagging resources with identifiers like project names, dedpartments, or cost centers, organizations can organize their spending, generate detailed cost reports, and effectively manage their cloud budget.
+
+* **AWS Cost Explorer** - is specifically designed to let you visualize, understand, and manage your AWS costs and usage over time. It provides an interface with interactive charts and detailed reports to explore and analyze spending patterns.
+
+* The primary purpose of a cross-account IAM role is to delegate access securely. It allows an identity(like a user or a service) in one AWS account to assume a role in a different account. This grants temporary permissions to access resources in the second account without needing to create and manage long-term credentials in that account.

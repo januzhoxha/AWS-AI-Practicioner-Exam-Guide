@@ -114,7 +114,7 @@
 * **OpEx** - Operational Expenditure
 * **CapEx** - Capital Expenditure
 
-* **AWS Enterprise Support plan** - offers24/7 techincal support via phone,email, and chat, the full set of AWS Trusted Advisor checks, plus premium features like designated TAM.
+* **AWS Enterprise Support plan** - offers 24/7 techincal support via phone,email, and chat, the full set of AWS Trusted Advisor checks, plus premium features like designated TAM.
 
 * **AWS Business support plan** - also does the same stuff as enterprise
 
@@ -131,3 +131,24 @@
 * **AWS Backup** - is a fully managed service desinged to centralize and automate data protection (backups) across various AWS Services.
 
 * **AWS Secrets Manager** - is a dedicated service designed to help you protect secrets needed to access your applications, services, and IT resources. The service enables you to easily rotate, manage and retrieve database credentials, API keys, and other secrets.
+
+* A primary financial benefit of consolidated blling is that by aggregating the usage from all linked accountss, the organization's total usage is higher, which can help it reach volume pricing tiers more quickly.This results in a lower overall cost than if each account were billed individually.
+
+
+* **AWS Schema Conversion Tool** - AWS SCT is specifically desigjed to assess and convert the source database schema, including tables, views, stored procedures, and other code objects, from one database engine(like Oracle) to a format compatible with a different target engine.
+
+* AWS Shield Standard is automatically enabled for all AWS customers at no additional cost. It provides essential protection against most common, frequently occurring network and transport layer (Layer 3 and Layer 4) DDoS attacks that target AWS services.
+
+* **Right Sizing** - is the process of matching instance types and sizes to your workload performance and capacity requirements at the lowest possible cost. It involves choosing the smallest or most optimal hardware and software footprint that meets the workloads' needs, thereby minimizing costs and maximizing efficiency without sacrificing performance.
+
+* The Developer support plan is more cost-effective than the Business plan.
+
+* **Economies of scale** - is the economic principle where the cost per unit decreases as the scale of operations increases. As AWS expands its global infrastructure, it achieves lower operational costs and passes these savings onto its customer through reduced prices.
+
+* AWS IAM allows to securely control access to aws services and resources.It allows you to manage users, groups, and roles, and use policies to grant or deny permissions, ensuring that only authorized entities can perform actions on your resources.
+
+* **Route Tables** - are a set of rules called routes that are used to determine where network traffic from your subnet or gateway is directed. Every subnet in a VPC must be associated with a route table, making it a fundamental component for controlling traffic flow.
+
+* **Amazon S3 Standard** - is the default storage class designde for frequently accessed data. It offers high durability, availability, and performance for data that requires low latency and high throughput, providing milisecond access times.
+
+* **AWS Organizations** - is the service specifically designed for centrally managing and governing your environment as you grow and scale your AWS resources. It allows you to group multiple AWS accounts, centrally apply policies to enforce governance, and consolidate billing into a single payment method for all accounts.

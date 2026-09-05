@@ -199,3 +199,33 @@
 
 * An Internet Gateway(IGW) must be attached to a Virtual Private Cloud (VPC) to allow communication between instances and the internet.
 The Internet Gateway is a horizontally scaled, redundant, and highly available BPC component that allows communication between your VPC and the internet.
+
+* **AWS Compute Optimizer** - analyzes the historical configuration and utilization metrics of your AWS compute resources, such as EC2 instances. It provides rightsizing recommendations to help you choose the optimal instance type to improve performance and reduce costs.
+
+* **The Retain strategy** - is used for applications that are kept in the source(on-premises) environment. This is the perfect fit for the scenario described, where a company is not yet ready to migrate an application due to factors like complex dependencies, and will revisit it at a later date.
+
+* **Amazon Connect** - is an easy-to-use,cloud-based contact center service that can be set up in minutes. It provides a cost-effective and scalable solution for businesses to offer customer service without the need for traditional, expensive contact center infrastructure.
+
+* **AWS CodeBuild** - is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. It is the essential AWS service for the build/compilation stage of a CI/CD pipeline.
+
+* **AWS CodePipeline** - is a fully managed continuous integration and continuous delivery service. It automates the build, test, and deploy phases of your release process, making it the key servic e for orchestrating the CI/CD workflow.
+
+* **Amazon AppStream 2.0** - is a fully managed, secure application streaming service that centrally hosts and streams desktop applications to any device with a web browser, per AWS documentation. It eliminates the need to rewrite applications and supports on-demand scaling, making it ideal for delivering applications to employees without managing underlying infrastructure.
+
+* **AWS Amplify** - is a set of purpose-built tools and services that lets frontend and mobile developers quickly build full-stack applications on AWS.
+
+* Data transfer between AWS services within the same Availability Zone (AZ) using private IP addresses is typically free of charge. This is a key principle for cost-effective architecture on AWS.
+
+* AWS WAF can be deployed directly on Amazon CloudFront, Application Load Balancer, Amazon API Gateway, AWS AppSync, and several other specific regional resource types.
+
+* **Amazon EventBridge** - is a serverless event bus service specifically designed to connect applications using data from various sources, including AWS services, integrated Software-as-a-Service(SaaS) applications, and custom applications.
+
+* **AWS Elastic Beanstalk** - is a classic example of a Platform as a Service (PaaS). Developers can simply ulpoad their application code, and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health monitoring.
+
+* Encryption at rest refers to the practice of securing stored, inactive data by scrambling it into an unreadable format using cryptographic algorithms so that it cannot be accessed without a decryption key.
+
+* **AWS IAM Identity Center** - centrally manages Single Sign-On (SSO) access to multiple AWS accounts and cloud applications. It is specifically designed to connect with external identity providers(IdPs) like Okta and Azure AD, enabling users to log in with their existing corporate credentials.
+
+* Before an allocation tag can be used for filtering in AWS Cost Managment tools it must be activated in the Billing and Cost Management console.
+
+* AWS VPN = Secure and private connection between an on-premises network and an AWS VPC over the public internet

@@ -152,3 +152,28 @@
 * **Amazon S3 Standard** - is the default storage class designde for frequently accessed data. It offers high durability, availability, and performance for data that requires low latency and high throughput, providing milisecond access times.
 
 * **AWS Organizations** - is the service specifically designed for centrally managing and governing your environment as you grow and scale your AWS resources. It allows you to group multiple AWS accounts, centrally apply policies to enforce governance, and consolidate billing into a single payment method for all accounts.
+
+* **AWS Budgets** - allows you to set custom budgets to track your costs and usage and sends alerts when you exceed (or are forecasted to exceed) your defined thresholds. It specifically supports creating reservation utilization and coverage budgets for both Reserved Instances (RIs) and Savings Plans.
+
+* You can host databases on EC2 because with RDS You have specific versions of popular database engines, meanwhile with EC2 you can choose whatever database engine you want.
+
+* **Elasticity** - is the core cloud concept that describes the ability to acquire resources as you need them and release them when you no longer need them. This allows you to scale up or down to meet demans without being locked into long-term contracts.
+
+* An EBS Volume is created within a specific Availiability Zone and can only be attached to a single EC2 instance that resides in that same Availability Zone. This co-location ensures the low-latency, high-performance connectivity reqquired for block storage.
+
+* **Patch Management** - is a classic example of a shared control. AWS is responsible for patching the underlying infrastructure, including the hypervisor and physical hardware. The customer, however is responsible for patching their own guest operating systems and any applications they have installed.
+
+* Go Serverless = Performance Efficiency
+
+* **Amazon Comprehend** - Uses NLP as a metric to find if text expresses positive, negative or neutral sentiment, it does not require any machine learning expertise.
+
+* **Amazon EFS(Elastic File System)** - provides a fully managed, scalable,elastic file system that uses the Network File System (NFS) protocol. It can ve mounted concurrently by multiple EC2 instances, providing a shared file system interface, which is directly analogous to a cloud-based Network Attached Storage(NAS) solution.
+
+* **AWS AppSync** - is a fully managed service that uses GraphQL to make it easy to develop data-driven applications. It directly addresses the requirements by handling real-time data synchronization across clients, providing offline data access with conflict resolution and simplifying data querting from various sources.
+
+* **AWS re:Post** - is an AWS-managed Q&A service that serves as an online community for users to ask technical questions and receive crowd-sourced, expert-reviewed answers from other customers, AWS partners, and AWS employees.
+
+* Rehosting = Lift and shift
+
+* Athena is connected to S3 Buckets *ad-hoc*
+

@@ -101,3 +101,33 @@
 * **AWS Cost Explorer** - is specifically designed to let you visualize, understand, and manage your AWS costs and usage over time. It provides an interface with interactive charts and detailed reports to explore and analyze spending patterns.
 
 * The primary purpose of a cross-account IAM role is to delegate access securely. It allows an identity(like a user or a service) in one AWS account to assume a role in a different account. This grants temporary permissions to access resources in the second account without needing to create and manage long-term credentials in that account.
+
+* **AWS Region** - represents the highest-level and largest geographical boundary within the AWS Flobal Infrastructure. Each Region is a separate geographic are that is completely isolated from other Regions and contains multiple, isolated Availability Zones to provide fault tolerance and stability.
+
+* **AWS Marketplace** - is a *curated* digital catalog that enables customers to find, buy, and deploy third-party software and services that run on AWS. It streamlines procurement and deployment of solutions.
+
+* **AWS Fargate** - is a serverless compute engine for containers. It is eligible for Compute Savings Plans, which apply to its compute usage, offering a flexible way to reduce costs for containerized applications.
+
+* **Amazon Transcribe** - Sppech-to-Text
+* **Amazon Polly** - Text-to-Speech
+
+* **OpEx** - Operational Expenditure
+* **CapEx** - Capital Expenditure
+
+* **AWS Enterprise Support plan** - offers24/7 techincal support via phone,email, and chat, the full set of AWS Trusted Advisor checks, plus premium features like designated TAM.
+
+* **AWS Business support plan** - also does the same stuff as enterprise
+
+* **AWS Shield Advanced** - is a paid service that offers a high level of protection against sophisticated and larger-scale DDoS attacks. A key feature of Shield Advanced is providing 24x7 access to the AWS DDoS Response Team(DRT) for expert assistance during an attack.
+
+* **Amazon Redshift** - is a fully managed petabyte-scale data warehouse service specifically designed for running complex analytical queries on large datasets. Its columnar storage and massively parallel processing (MPP) architecture make it the ideal choice for this use case.
+
+* The primary function of an Elastic Load Balancer is to distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses. This improves availability, fault and tolerance, and scalability by acting as a single point of contact for clients.
+
+* The 'License Included' model means that the cost of the software license is bundled into the Amazon EC2 instance pricing. This is the ideal option for customers who do not have a pre-existing license and want to run commercial software like Microsoft Windows Server on AWS.
+
+* **Amazon GuardDuty** - is an intelligent threat detection service that continuously monitors for malicious activity and unauthorized behaviour. It uses machine learning, anomaly detection, and integrated threat intelligence to automatically identify threats such as unusual API activity.
+
+* **AWS Backup** - is a fully managed service desinged to centralize and automate data protection (backups) across various AWS Services.
+
+* **AWS Secrets Manager** - is a dedicated service designed to help you protect secrets needed to access your applications, services, and IT resources. The service enables you to easily rotate, manage and retrieve database credentials, API keys, and other secrets.

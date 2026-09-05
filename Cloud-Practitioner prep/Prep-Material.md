@@ -177,3 +177,25 @@
 
 * Athena is connected to S3 Buckets *ad-hoc*
 
+* **AWS Auto Scaling** - monitors your applications and automatically adjusts compute capacity(adding or removing EC2 instances) based on demand. This ensures that you maintain steady, predictable performance at the lowest possible cost.
+
+* **Amazon Kendra** - is an intelligent enterprise search service powered by machine learning and natural language processing(NLP). It is specifically designed to index and search across multiple internal data silos like wikis, intranets, and file shares, allowing users to find information by asking questions in natural language.
+
+* **Amazon DynamoDB** - is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. It delivers consistent, single-digit millisecong latency, making it the perfect choice for applications with these requirements.
+
+* In AWS Organization the bill for all member accounts is sent to the management account(formerly master account).
+
+* The People perspective of the AWS Cloud Adoption Framework(CAF) directly addresses the human elements of cloud adoption. It focuses on preparing the workforce through skills development, training, role definition, and managing the organizational and cultural changes required for a successful transition to the cloud.
+
+* **Amazon ElastiCache** - is a managed in-memory data store and cache service that supports popular open-source engines like Redis and Memcached. It is the ideal solution for offloading frequent read requests from a relational database to provide low-latency responses, which is exactly what is needed duting a high-traffic flash sale.
+
+* Within AWS Organizations, the cost benefits of Reserved Instances (RIs) are automatically applied to any matching instance usage across all accounts in the organization.
+
+* **AWS Storage Gateway** - is a hybrid cloud storage service specifically designed to connect an on-premises software or hardware appliance with cloud-based storage.It provides seamless and secure integration between an organization's on-premises IT environment and AWS's storage infrastructure.
+
+* Adopting a consumption model means you pay only for the computing resources you consume and increase or decrease usage depending on business requirements, rather than making large upfront capital investments.
+
+* A VPC Peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 or IPv6 addresses. Instances in either VPC can communicate with each other as if they are part of the same network.
+
+* An Internet Gateway(IGW) must be attached to a Virtual Private Cloud (VPC) to allow communication between instances and the internet.
+The Internet Gateway is a horizontally scaled, redundant, and highly available BPC component that allows communication between your VPC and the internet.

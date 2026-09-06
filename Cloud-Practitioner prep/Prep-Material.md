@@ -229,3 +229,33 @@ The Internet Gateway is a horizontally scaled, redundant, and highly available B
 * Before an allocation tag can be used for filtering in AWS Cost Managment tools it must be activated in the Billing and Cost Management console.
 
 * AWS VPN = Secure and private connection between an on-premises network and an AWS VPC over the public internet
+
+* Amazon S3 is a popular and cost-effective choice for hosting static websites. It can directly serve static contect like HTML, CSS, JavaScript, and image files to users.
+
+* **AWS CloudFormation** - is the service that allows users to provision infrastructure as code using templates written in JSON or YAML.
+
+* **AWS Personal Health Dashboard** - provides a personalized view of AWS service health and events that impact a user's specific AWS resources. It sends alerts and provides remdiation guidance for scheduled maintenance on EC2 instances tied to the user's account.
+
+* **Provisioning** - is about creating resources.
+
+* **Operating** - is about managing and monitoring them.
+
+* **Repurchasing** - also known as 'drop and shop' is the strategy of moving to a different product, typically a Software-as-a-Service(SaaS) solution. This involves decommisioning the legacy on-remises application and purchasing a license for a new cloud-based product.
+
+* **AWS Trusted Advisor** - is an online tool that acts as your customized cloud expert. It inspects your AWS environment and provides real-time guidance to help you provision your resources following AWS best practices across five specific categories: cost optimization, performance, security, fault tolerance, and service limits.
+
+* Purchasing physical servers is an example of Capital Expense(CapEx).
+
+* **AWS Whitepapers** - are authoritative, in-depth technical documents created by AWS. They provide comprehensive guidance, best practices, and reference architectures on a wide range of topics, including security, performance, and architectural principles, making them the ideal resource for this requirement.
+
+* **Amazon SQS** - is a fully managed message queuing service designed specifically to decouple and scale microservices, distributed systems, and serverless applications. It stores messages in a durable queue, allowing the order processing application to send messages without needing the fradud detection application to be immediately available, thus achieving loose coupling.
+
+* **Agility** - in the cloud refers to the ability to rapidly develop, test, and launch applications. Reducing the time to provision new resources from weeks (in a traditional data center) to mere minutes and allows organizations to innovate and respond to market changes much faster.
+
+* A HyperVisor in AWS is a low-level software layer that runs directly on physical server hardware to split it into multiple isolated virtual machines, known as Amazon EC2 instances.
+
+* **Encryption at rest** = protects data while it is tored on a disk, in a database, or on other persistent storage media. The question specifically asks about encrypting data as it is being trasferred.
+
+* **Encryption in transit** = is also known as encryption in motion, it is the process of protecting data as it travels across a network, such as between an application server and a database. 
+
+* **Amazon S3 Intelligent-Tiering** - is specifically designed to optimize storage costs by automatically moving data between a frequent access tier and an infrequent access tier when access patterns change. This is the ideal way.
